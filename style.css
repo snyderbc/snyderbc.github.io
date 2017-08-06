@@ -40,3 +40,32 @@ h1 {
 footer {
   font-family: "Times New Roman", Times, serif;
 }
+
+.venue-photo {
+  border-radius: 8px;
+  max-width: 75%;
+  hieght: auto;
+  display: block;
+  margin: auto;
+}
+
+figcaption {
+  text-align: center;
+  padding: 5px;
+  font-style: italic;
+}
+
+#feedback-request {
+  border-width: 2px;
+  border-style: solid;
+  max-width: 300px;
+  padding: 10px;
+}
+
+p {
+  line-height: 140%;
+}
+
+ul {
+  line-height: 140%;
+}
