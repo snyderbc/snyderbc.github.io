@@ -1,3 +1,27 @@
-body {
-  background: rgb(130,203,255);
+html {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
+blockquote {
+  border-style: double;
+  padding: 5px;
+  margin: auto;
+  max-width: 60%;
+  border-width: 3px;
+  text-align: center;
+}
+
+body {
+  max-width: 960px;
+  line-height: 125%;
+}
+
+#intro {
+  margin-top:25px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
