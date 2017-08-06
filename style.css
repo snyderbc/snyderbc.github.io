@@ -69,3 +69,8 @@ p {
 ul {
   line-height: 140%;
 }
+
+a:visited {
+  color: pink;
+}
+
