@@ -1,0 +1,81 @@
+html {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+blockquote {
+  border-style: double;
+  padding: 3px;
+  margin: auto;
+  max-width: 60%;
+  border-width: 3px;
+  text-align: center;
+}
+
+body {
+  max-width: 960px;
+}
+
+#intro {
+  margin-top:25px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 2px white;
+  background-image: url("Fans.jpg");
+  background-repeat: no-repeat;
+  padding: 125px;
+  background-position: bottom;
+  min-width: 300px;
+}
+
+#background {
+  font-size: 13px;
+  line-height: 10%;
+  text-align: right;
+}
+
+footer {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.venue-photo {
+  border-radius: 8px;
+  max-width: 75%;
+  hieght: auto;
+  display: block;
+  margin: auto;
+}
+
+figcaption {
+  text-align: center;
+  padding: 5px;
+  font-style: italic;
+}
+
+#feedback-request {
+  border-width: 2px;
+  border-style: solid;
+  max-width: 300px;
+  padding: 10px;
+}
+
+p {
+  line-height: 140%;
+}
+
+ul {
+  line-height: 140%;
+}
+
+a:visited {
+  color: pink;
+}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 20px;
+  }
+}
